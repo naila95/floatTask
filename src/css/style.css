@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+}
+
+header .nav {
+  height: 6rem;
+  overflow-y: hidden;
+  padding: 50px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo .logo-link {
+  display: inline-block;
+  width: 190px;
+}
+
+.logo a img {
+  width: 100%;
+}
+
+.nav-bar {
+  float: right;
+  margin-right: 3rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 18px;
+}
+
+.nav-bar a:hover {
+  color: #ffc800;
+}
+
+.content {
+  text-align: center;
+  padding: 14rem;
+}
+
+header .content h4 {
+  font-style: italic;
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+header .content h1 {
+  color: #ffffff;
+  font-size: 72px;
+  margin-bottom: 60px;
+}
+
+header .content a {
+  padding: 20px 40px;
+  color: #ffffff;
+  background-color: #ffc800;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#services {
+  height: 35rem;
+  text-align: center;
+  padding: 5rem;
+}
+
+#services h2 {
+  color: #212529;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#services h3 {
+  color: #6c757d;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#services .services-div {
+  margin-top: 50px;
+}
+
+.services-div .commerce {
+  width: 30%;
+  float: left;
+  margin-right: 55px;
+}
+
+.services-div .responsive {
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+
+.services-div .security {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.services-div h4,
+.caption h2,
+.member-caption h4 {
+  font-size: 27px;
+  color: #212529;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.services-div p,
+.portfolio-content h3,
+.caption p,
+.team-heading h3,
+.member-caption p {
+  color: #6c757d;
+  font-size: 18px;
+}
+
+.img-div {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  background-color: #ffc800;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.img-div img {
+  width: 100%;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+  height: 75rem;
+  padding: 7rem;
+}
+
+.portfolio-content {
+  text-align: center;
+}
+
+.portfolio-content h2,
+.team-heading h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#portfolio .portfolio-images .image {
+  width: 30%;
+  float: left;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.portfolio-content h3 {
+  margin-bottom: 40px;
+}
+
+.image a img {
+  width: 100%;
+}
+
+.image a img:hover {
+  opacity: 0;
+  background-color: rgba(255, 200, 0, 0.9);
+}
+
+.portfolio-images .caption {
+  text-align: center;
+}
+
+#team {
+  height: 40rem;
+  padding: 5rem;
+}
+
+#team .team-heading {
+  text-align: center;
+}
+
+.team-heading h3 {
+  margin-bottom: 40px;
+}
+
+.team-members .member {
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+}
+
+.member img {
+  width: 100%;
+}
+
+.member .member-caption {
+  text-align: center;
+}
+
+.member .team-img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#social {
+  height: 12rem;
+  padding: 10rem;
+  background-color: #f8f9fa;
+}
+
+#social .social-img {
+  width: 200px;
+  float: left;
+  margin-right: 130px;
+}
+
+#social a img {
+  width: 100%;
+}
+
+#social .social-img4 {
+  width: 200px;
+  float: left;
+}
